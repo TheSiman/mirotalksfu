@@ -1618,6 +1618,7 @@ main {
     flex-wrap: wrap;
     padding-top: 48px;
     padding-bottom: 48px;
+    flex: 2 1 auto
 }
 .footer-brand,
 .footer-links,

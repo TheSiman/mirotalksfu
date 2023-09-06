@@ -141,8 +141,9 @@ document.getElementById('roomName').value = '';
 // ####################################################
 
 let i = 0;
-let txt = num + adjective + noun;
-let speed = 100;
+//let txt = num + adjective + noun;
+let txt = getUUID4()
+let speed = 50;
 
 function typeWriter() {
     if (i < txt.length) {
